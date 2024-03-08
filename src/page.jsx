@@ -9,17 +9,23 @@ import PageAidana from "./pageAidana";
 function Book(props) {
   return (
     <HTMLFlipBook width={550} height={750}>
-      <div className="demoPage1">
+      <div className="demoPage">
+        <div className="demoPage1">
       <img src={geeks} alt="geeks"/>
       <h1>
-        С 8 марта вас!!!
+       
       </h1>
       </div>
+      </div>
+
     
       <div className="demoPage"><PageAyana/></div>
       <div className="demoPage"><PageMilana/></div>
       <div className="demoPage"><PageAiperi/></div>
       <div className="demoPage"><PageAidana/> </div>
+      <div className="demoPagel">
+        
+         </div>
     </HTMLFlipBook>
   );    
 }
